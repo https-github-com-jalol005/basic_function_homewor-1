@@ -3,4 +3,10 @@
 //  Create function arguments a.
 
 //  Return the value a.
-void main() {}
+String func(String a){
+    return 'my mane is'+a;
+}
+
+void main() {
+    print(func('mirjalol'));
+}
